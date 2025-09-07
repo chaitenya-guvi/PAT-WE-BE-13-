@@ -59,3 +59,29 @@ print(once)
 # highest score
 # 1name
 # convert to_string
+
+
+"""
+Variable advanced
+"""
+
+"""
+Most variables should be snake_case (underscores between words)
+Most variables should be also be lowercase, with some exceptions:
+UpperCamelCase usually refers to a class (more on that later)
+CAPITAL_SNAKE_CASE usually refers to constants (e.g. PI = 3.14)
+Variables that start and end with two underscores (called "dunder" for double underscore) are supposed to be private or left alone
+"""
+
+# snake case
+name_of_student = "Mathi"
+
+# camel case - used for classes
+noOfStudents = 17
+nameOfInstructor = "Chaitenya"
+
+#
+VALUE_OF_PI = 3.14
+
+# _ 
+# __
