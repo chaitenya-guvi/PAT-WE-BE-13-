@@ -4,11 +4,11 @@
 # int         # - non-decimal number from
 # float       # - decimal number from
 # bool        # - True or False
+# None
 # list        # - [1,2,3]
 # tuple       # - (1,2,3)
 # set         # - {1,2,3}
 # dict        # - {key1:value1 , key2:value2}
-# NONE
 
 
 print(3.14)
@@ -24,5 +24,7 @@ print(type(False))
 print('true')  # this is a string
 print(type('true'))  # this is a string
 
-
+# None
+print(None)
+print(type(None))
 
