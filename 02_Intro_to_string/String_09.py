@@ -18,8 +18,8 @@ print(hello_string[0:6])
 # Basic slicing examples
 print("Characters from index 0 to 5:", sample_str[0:5])  # Output: 'abcde'
 print("Characters from index 0 to 5:", sample_str[25])  # Output: 'abcde'
-print("Characters from index 0 to 5:", sample_str[0:25])  # Output: 'abcde'
-print("Characters from index 0 to 5:", sample_str[26])  # Output: 'abcde'
+print("Characters from index 0 to 25:", sample_str[0:25])  # Output: 'abcde'
+# print("Characters from index 0 to 5:", sample_str[26])  # Output: 'abcde'
 
 print("First 10 characters:", sample_str[:10])  # Output: 'abcdefghij'
 print("Characters from index 10 to end:", sample_str[10:])  # Output: 'klmnopqrstuvwxyz'
