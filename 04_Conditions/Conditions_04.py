@@ -30,5 +30,6 @@ if temperature > 20:
 # It's a hot day.
 # It's warm outside.
 
-# Multiple if statements are useful when you want to check several independent conditions, not just one chain of decisions.
+# Multiple if statements are useful when you want to check several independent conditions
+# , not just one chain of decisions.
 

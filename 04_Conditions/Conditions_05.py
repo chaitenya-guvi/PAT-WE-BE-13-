@@ -13,7 +13,7 @@ if age > 10:
 # Age is less than 25.
 
 # Example 2: Real-world scenario
-score = 85
+score = 90
 if score >= 50:
     print("You passed the exam.")
     if score >= 80:
