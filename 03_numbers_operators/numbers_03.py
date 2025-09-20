@@ -6,9 +6,13 @@ y = 5
 
 # 1. Equal to (==)
 print("x == y:", x == y)  # False
+print(10 == 10)  # True
+print(10 == 9)   # False
 
 # 2. Not equal to (!=)
 print("x != y:", x != y)  # True
+print(10 != 10)  # False
+print(10 != 9)   # True
 
 # 3. Greater than (>)
 print("x > y:", x > y)  # True
