@@ -7,6 +7,10 @@ print(text.find("Python"))  # Output: -1 (not found)
 print(text.count("l"))  # Output: 3
 print(text.count("ll"))  # Output: 1
 
+# Example of count() with space character
+text_with_spaces = "a b c d e f g h"
+print(text_with_spaces.count(" "))  # Output: 7 (number of spaces in the string)
+
 # 9. startswith() - Checks if string starts with a substring
 print(text.startswith("hello"))  # Output: True
 
