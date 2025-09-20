@@ -7,6 +7,13 @@ num_y = 15
 print(num_x < 5 or num_y > 20)  # True (first condition is True)
 print(num_x > 10 or num_y < 10) # False (both conditions are False)
 
+true_number = 1
+false_number = 0
+print(true_number + true_number)
+print(true_number + false_number)
+print(false_number + true_number)
+print(false_number + false_number)
+
 # Example 2: Strings
 str_x = ""
 str_y = "World"
