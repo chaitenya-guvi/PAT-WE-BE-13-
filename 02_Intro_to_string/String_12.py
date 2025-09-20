@@ -23,4 +23,5 @@ print(name.lower())  # Output: 'python programming'
 
 # 3. strip() - Removes leading and trailing whitespace
 raw_text = "   Hello World!   "
+print(raw_text)
 print(raw_text.strip())  # Output: 'Hello World!'
