@@ -1,4 +1,4 @@
-# The if and else statements in Python are used for decision making.
+# The if and else statements in Python are used for decision-making.
 # 'if' checks a condition; if True, the indented block runs.
 # 'else' runs if the condition is False.
 

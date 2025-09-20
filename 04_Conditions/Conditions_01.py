@@ -3,9 +3,10 @@
 # Indentation is very important in Python. It defines which statements belong to the if block.
 # Indented code (usually 4 spaces) after if is executed only if the condition is True.
 
+# if condition : # Indented block of code to run if condition is True
 # Basic example:
 number = 7
-if number > 5:
+if (number > 5): # when this is evaluated as true then code below is run
     print("The number is greater than 5.")  # This line runs because 7 > 5
     print("This line is also indented and runs if the condition is True.")
 # The above two print statements are inside the if block due to indentation.
@@ -19,3 +20,11 @@ if number > 5:
 # Code that is not indented is outside the if block and always runs.
 print("This line runs regardless of the if condition.")
 
+
+if True : # when this is evaluated as true then code below is run
+    print("The number is greater than 5.")  # This line runs because 7 > 5
+    print("This line is also indented and runs if the condition is True.")
+
+if False :
+    print("This will not be printed because 3 is not greater than 5.")
+    print("Indented lines are skipped if the condition is False.")
