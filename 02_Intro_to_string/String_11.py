@@ -33,3 +33,5 @@ print(f"Reverse the string: {string1[::-1]}")  # Output: 'nohtyP'
 print(f"Reverse first 3 characters: {string1[2::-1]}")  # Output: 'tP'
 print(f"Reverse last 3 characters: {string1[-1:-4:-1]}")  # Output: 'noh'
 print(f"Every second character in reverse: {string1[::-2]}")  # Output: 'nt
+
+
