@@ -12,22 +12,22 @@ current_number = 1
 total_sum = 0
 while total_sum < 20:
     print(f"Adding {current_number} to total {total_sum}")
-    total_sum += current_number
-    current_number += 1
+    total_sum += current_number #adding current number to total sum
+    current_number += 1 #incrementing the current number
 print(f"Final total: {total_sum}")
 
 # Example 3: Print all even numbers less than 10
 number = 2
 while number < 10:
     print(f"Even number: {number}")
-    number += 2
+    number += 2 #incrementing by 2 to get the next even number
 
 # Example 4: Loop until a condition is met (simulate user input)
 # Uncomment below to test interactively
-# password = ""
-# while password != "python123":
-#     password = input("Enter the password: ")
-# print("Access granted!")
+password = ""
+while password != "python123":
+    password = input("Enter the password: ")
+print("Access granted!")
 
 # Example 5: Loop through a list using while
 fruits = ["apple", "banana", "cherry"]

@@ -13,11 +13,14 @@ while count <= 5:
 
 # Example 2: User input loop (unknown number of iterations)
 # This loop keeps asking for input until the user types 'exit'
+# Uncomment to run
 
 # user_input = ""
 # while user_input != "exit":
 #     user_input = input("Type 'exit' to stop: ")
 #     print(f"You typed: {user_input}")
+
+
 
 # Example 3: Waiting for a condition to change
 temperature = 30
