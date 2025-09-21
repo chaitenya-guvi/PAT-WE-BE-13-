@@ -20,6 +20,10 @@ string_data = "abc"
 list_from_string = list(string_data)
 print("List from string:", list_from_string)  # Output: ['a', 'b', 'c']
 
+#convert list back to string
+joined_string = ''.join(list_from_string)
+print("Joined string:", joined_string)  # Output: abc
+
 # Summary:
 # - The list() function is a flexible way to create lists from ranges, tuples, strings, and other iterables.
 # - We'll use this technique more later with several other data types!

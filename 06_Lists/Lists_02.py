@@ -5,9 +5,12 @@
 
 # Example 1: Lists are mutable
 numbers = [1, 2, 3]
+print(numbers[0])
+print(numbers[1])
+print(numbers[2])
+
 numbers[0] = 10  # Change the first element
-numbers.append(4)  # Add a new element
-print("Modified list:", numbers)  # Output: [10, 2, 3, 4]
+print("Modified list:", numbers)  # Output: [10, 2, 3]
 
 # Example 2: Strings are immutable
 text = "hello"
@@ -19,7 +22,7 @@ print("Modified string:", new_text)  # Output: Hello
 # Example 3: Integers are immutable
 num = 5
 print("Original integer id :",id(num))
-# num[0] = 10  # This will raise an error
+num[0] = 10  # This will raise an error
 num = num + 1  # Creates a new integer object
 print("Modified integer id :", id(num))
 print("Original integer:", 5)
