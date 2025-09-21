@@ -18,6 +18,14 @@ numbers = (1, 2, 3)
 for number in numbers:
     print(number)
 
+# in python 3, many built-in data types are iterable.
+# Examples include lists, tuples, strings, dictionaries, and sets.
+# non iterable example
+# number like int , float, complex are not iterable
+# NoneType is not iterable
+# boolean are not iterable
+
+
 # You can check if an object is iterable using the iter() function:
 print(iter(fruits))  # This returns an iterator object
 

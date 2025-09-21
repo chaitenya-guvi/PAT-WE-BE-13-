@@ -6,7 +6,7 @@
 number = 4
 if number > 5:
     print("The number is greater than 5.")
-else:
+else :
     print("The number is not greater than 5.")
 # Output: The number is not greater than 5.
 
