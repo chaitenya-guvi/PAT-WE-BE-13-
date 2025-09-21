@@ -1,4 +1,5 @@
-# While loops require more careful setup than for loops, since you have to specify the termination conditions manually.
+# While loops require more careful setup than for loops,
+# since you have to specify the termination conditions manually.
 # If you forget to update the condition or set it incorrectly, you may create an infinite loop.
 
 # Example 1: Correctly set up while loop (counting from 1 to 5)

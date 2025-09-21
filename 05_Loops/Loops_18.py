@@ -1,13 +1,14 @@
 # The 'pass' statement in Python
 # ------------------------------
 # 'pass' is a null statement. It does nothing when executed.
-# It is used as a placeholder in code blocks where a statement is required syntactically, but you don't want any action to be taken.
+# It is used as a placeholder in code
+# blocks where a statement is required syntactically,
+# but you don't want any action to be taken.
 
 # Example 1: Empty function definition
 
-def do_nothing():
-    pass  # Function does nothing
-
+def do_nothing():  # Function does nothing
+    pass
 # Example 2: Empty class definition
 
 class EmptyClass:

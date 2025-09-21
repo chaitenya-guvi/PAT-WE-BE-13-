@@ -1,8 +1,11 @@
-# The 'continue' statement in for loops
-# -------------------------------------
-# 'continue' is used to skip the rest of the code inside the loop for the current iteration and move to the next iteration.
-# It is useful when you want to ignore certain values or conditions while looping.
-
+"""
+The 'continue' statement in for loops
+-------------------------------------
+'continue' is used to skip the rest of the code
+inside the loop for the current iteration and move
+to the next iteration.
+It is useful when you want to ignore certain values or conditions while looping.
+"""
 # Basic Example: Skip even numbers in a range
 for number in range(1, 6):
     if number % 2 == 0:

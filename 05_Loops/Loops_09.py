@@ -24,10 +24,10 @@ while number < 10:
 
 # Example 4: Loop until a condition is met (simulate user input)
 # Uncomment below to test interactively
-password = ""
-while password != "python123":
-    password = input("Enter the password: ")
-print("Access granted!")
+# password = ""
+# while password != "python123":
+#     password = input("Enter the password: ")
+# print("Access granted!")
 
 # Example 5: Loop through a list using while
 fruits = ["apple", "banana", "cherry"]
