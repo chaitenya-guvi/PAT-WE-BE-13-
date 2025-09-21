@@ -8,6 +8,7 @@
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
+    print(f"fruit = {fruit.upper()} , capitailsed = {fruit.capitalize()} first index is {fruit[0]}")
 
 # Example 2: Looping through a string
 text = "Python"
