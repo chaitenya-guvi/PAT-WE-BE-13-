@@ -17,6 +17,13 @@ print("Index of 'banana':", idx)  # Output: 1 (first occurrence)
 colors = ["red", "green", "blue", "green", "yellow"]
 idx = colors.index("green", 2)  # Start searching from index 2
 print("Index of 'green' after index 2:", idx)  # Output: 3
+idx = colors[2:].index("green", 2)  # Start searching from index 2
+print("Index of 'green' after index 2:", idx)  # Output: 3
+
+# find the second occurence of green , ignore the first occurence
+first_green_index = colors.index("green")
+second_green_index = colors.index("green", first_green_index + 1) #this +1 ignores the first occurence
+print("Index of second 'green':", second_green_index)  # Output: 3
 
 # Real World Use Case: Find the position of a task in a to-do list
 tasks = ["Email", "Meeting", "Code Review", "Lunch"]
