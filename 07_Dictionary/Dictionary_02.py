@@ -23,6 +23,7 @@ print("Person dictionary:", person)
 print("Name:", person["name"])
 print("Skills:", person["skills"])
 print("City:", person["address"]["city"])
+print("Skills", person["skills"][0])  # Accessing first skill using list indexing
 
 # Summary:
 # - Dictionaries use curly braces {} and key-value pairs separated by colons.

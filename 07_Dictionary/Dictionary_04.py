@@ -21,6 +21,8 @@ student = {
 }
 print("Math marks:", student["marks"]["Math"])  # Output: 90
 
+# print(student["age"]) # This will raise a KeyError since "age" key does not exist
+print(student.get("age")) # This will return None since "age" key does not exist
 
 # Summary:
 # - Use dict[key] to access a value by key (raises KeyError if key not found).

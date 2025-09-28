@@ -23,6 +23,8 @@ data = {}
 data["id"] = 101
 data["status"] = "active"
 print("Empty dict and add:", data)
+data["status"] = "inactive"  # Update value
+print("Updated dict:", data)
 
 # Summary:
 # - Curly braces {} with key-value pairs
