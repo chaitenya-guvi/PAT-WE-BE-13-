@@ -8,9 +8,9 @@ More readable examples!
 def add(number1='please ', number2='pass a number instead'):
     return number1+number2
 
-print(add())
+print(add()) # please pass a number instead
 # print(add())
-print(add(5, 10))
+print(add(5, 10)) # 15
 
 """# example 2 : """
 def show_information(first_name="Chaitenya", is_instructor=False):
