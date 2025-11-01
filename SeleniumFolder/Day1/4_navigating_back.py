@@ -1,13 +1,13 @@
 from selenium import webdriver
 from time import sleep
 
-url = "https://www.google.com/"
+url1 = "https://www.google.com/"
 url2  = "https://www.guvi.in"
 
 driver = webdriver.Chrome()
 
 # Open the webpage to url
-driver.get(url)
+driver.get(url1)
 
 # get the title of webpage
 print(driver.title)
@@ -20,7 +20,10 @@ print(driver.title)
 
 # method to go back one page
 driver.back()
+
 sleep(2)
 print(driver.title)
+driver.forward()
+driver.forward()
 
 

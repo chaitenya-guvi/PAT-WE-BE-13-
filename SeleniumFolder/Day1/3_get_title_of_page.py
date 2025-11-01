@@ -10,3 +10,4 @@ driver.get(url)
 
 # get the title of webpage
 print(driver.title)
+print(driver.current_url)
