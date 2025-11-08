@@ -1,3 +1,6 @@
+from functools import partial
+
+
 class Employee:
     def calculate_salary(self):
         raise NotImplementedError("Subclass must implement this method")
@@ -17,5 +20,11 @@ class Freelancer(Employee):
 def show_salary(employee):
     print(f"Salary: {employee.calculate_salary()}")
 
-for emp in [FullTimeEmployee(), PartTimeEmployee(), Freelancer()]:
+fulltimeemp = FullTimeEmployee()
+partimeemp = PartTimeEmployee()
+freelanceremp = Freelancer()
+
+list1 = [fulltimeemp, partimeemp, freelanceremp]
+
+for emp in list1:
     show_salary(emp)
