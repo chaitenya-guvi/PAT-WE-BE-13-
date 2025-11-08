@@ -8,6 +8,9 @@ While a formal definition of polymorphism is more difficult,
  here are two important practical applications:
 """
 
+print(len("Hello"))     # Output: 5 → works on string
+print(len([1, 2, 3]))   # Output: 3 → works on list
+print(len({"a": 1, "b": 2}))  # Output: 2 → works on dict
 
 
 """
@@ -22,6 +25,21 @@ Cat.speak()  # meow
 Dog.speak()  # woof
 Human.speak()  # yo
 """
+
+class Dog:
+    def make_sound(self):
+        return "Bark"
+
+class Cat:
+    def make_sound(self):
+        return "Meow"
+
+animals = [Dog(), Cat()]
+
+for animal in animals:
+    print(animal.make_sound())
+
+
 
 """
 Exmple 2 
