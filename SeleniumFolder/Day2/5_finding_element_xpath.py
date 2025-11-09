@@ -2,7 +2,12 @@
 
 
 """
+XPath or XML Path is a query language for selecting nodes from an XML document.
+ 
+ In Selenium, XPath is used to navigate through elements and attributes in an HTML document.
 //tag[@attribute='value']
+
+//tag[@attribute1='value']
 """
 
 
@@ -25,10 +30,6 @@ sleep(2)
 
 #maximise window
 driver.maximize_window()
-
-#title of page
-print(driver.title)
-
 
 webelement_of_email_input = driver.find_element(By.XPATH,"//input[@name='username']")
 webelement_of_email_input.send_keys("999999999")
