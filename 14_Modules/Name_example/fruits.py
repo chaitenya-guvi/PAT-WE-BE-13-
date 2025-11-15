@@ -10,6 +10,10 @@ print(bananas.dip_in_chocolate())
 
 # # Importing a single function from bananas:
 #rename dip_in_chocolate to dip
+from bananas import dip_in_chocolate
+
+print(dip_in_chocolate())
+
 from bananas import dip_in_chocolate as dip
 print(dip())
 #
