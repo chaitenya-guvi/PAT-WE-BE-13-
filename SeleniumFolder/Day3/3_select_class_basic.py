@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
 
-class DropdownSelect():
+class DropdownSelect:
 
     def test(self):
         """
@@ -22,14 +22,14 @@ class DropdownSelect():
         driver.maximize_window()
         driver.get(baseUrl)
         # driver.implicitly_wait(10)
-        sleep(5)
+        sleep(1)
 
         id_to_dropdown = "dropdown"
         webelement_of_dropdown = driver.find_element(By.ID,id_to_dropdown)
 
         # passed web elements in the select class as an argument to select class
         sel = Select(webelement_of_dropdown)
-        sleep(5)
+        sleep(2)
         #Returns a list of all options belonging to this select tag
         print(sel.options)
         #iterating over web elements list and printing the text of options

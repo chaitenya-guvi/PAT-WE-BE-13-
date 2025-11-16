@@ -18,20 +18,22 @@ class  DropdownExample2():
         id_to_carselect_dropdown = 'carselect'
         webelement_of_select_class = driver.find_element(By.ID,id_to_carselect_dropdown)
         time.sleep(4)
+
+        #NOTE -  create select class object with passing in the webelement of select tag
         sel = Select(webelement_of_select_class)
 
         # select ing by value
         sel.select_by_value("honda")
-        time.sleep(5)
+        # time.sleep(5)
         #
         # # selecting by index
         sel.select_by_index(0)
-        time.sleep(5)
+        # time.sleep(5)
         #
         #
         # # selecting by text
         sel.select_by_visible_text("Benz")
-        time.sleep(5)
+        # time.sleep(5)
         #
         # # selecting by index - 2
         sel.select_by_index("1")
