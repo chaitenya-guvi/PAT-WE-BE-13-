@@ -11,6 +11,7 @@
 """
 
 # assert example using pytest
+# expected to fail
 def test_string_check():
     text = "pytest"
     assert text == "python"
