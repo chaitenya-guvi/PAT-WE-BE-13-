@@ -1,0 +1,5 @@
+f = open('./files/reading_file_example.txt')
+lines = f.readlines()
+print(type(lines))
+print(lines)
+f.close()

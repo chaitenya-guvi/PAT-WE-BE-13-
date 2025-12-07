@@ -1,0 +1,20 @@
+f = open('./files/reading_file_example.txt')
+txt = f.read(10)
+print(type(txt))
+print(txt)
+print("111111!!!!!!!!!!!!"* 3)
+txt2 = f.read()
+print(f"text2 is :: {txt2} :: ")
+f.close()
+
+# reading liune by line
+f = open('./files/reading_file_example.txt')
+line1 = f.readline()
+print(type(line1))
+print(line1)
+
+line2 = f.readline()
+print(f"line2 is :: {line2} :: ")
+line3 = f.readline()
+print(f"line3 is :: {line3} :: ")
+f.close()
