@@ -1,0 +1,156 @@
+Yash
+
+Test Case 1
+Title: Verify user can remove a product from the shopping cart
+Precondition:
+User is able to login with valid credentials
+User has at least one product added to the cart (Sauce Labs Bike Light)
+
+Steps for test:
+Verify inventory page loads after login
+Add “Sauce Labs Bike Light” to the cart
+Cart badge count should display 1
+Click the shopping cart icon
+Verify “Sauce Labs Bike Light” is visible in the cart
+Click the Remove button next to “Sauce Labs Bike Light”
+
+Verify the item is no longer visible in the cart
+
+Expected:
+Sauce Labs Bike Light should be removed successfully and should not appear in the cart
+
+
+Pranav
+
+Test Case 2
+
+Title: Verify product sorting by Price (Low to High)
+
+Precondition:
+
+User is on the Inventory page
+Steps for test:
+Open the sort dropdown
+Select Price (Low to High)
+
+Expected:
+Products should be sorted from lowest price to highest price
+
+Test Case 3
+
+Title: Verify side menu options are displayed
+
+Precondition:
+
+User is on the Inventory page
+
+Steps for test:
+
+Click the hamburger (menu) button
+
+Observe the menu options
+
+Expected:
+
+Side menu opens successfully
+Following options are displayed:
+All Items
+About
+Logout
+Reset App State
+
+
+
+Shubham
+
+Test Case 1
+
+Title: Verify Sauce Labs Twitter icon redirects to X website
+
+Precondition:
+User is able to login
+
+Steps for test:
+Verify Twitter icon is available in the footer
+Verify Twitter icon is the first icon in the footer
+Click on the Twitter icon
+
+Expected:
+
+A new window should open
+URL should be https://x.com/saucelabs
+
+
+Test Case 3
+Title: Verify About option provides information about the website
+
+Precondition:
+User is able to login
+
+Steps for test:
+Click on the menu icon (three lines) at top left
+Verify four menu options are displayed
+Click on the About option
+
+Expected:
+A new website page should open with information about Sauce Labs
+
+
+Bathri
+
+Test Case 1
+
+Title: Verify logout is working as expected
+
+Precondition:
+User is able to login
+Steps for test:
+Click on the menu icon
+Click on Logout button
+
+Expected:
+User should be logged out successfully
+
+Hemanth
+Test Case 1
+Title: Verify Sauce Labs Backpack price is correct on Checkout Overview page
+Precondition:
+
+User is logged in
+Sauce Labs Backpack is added to cart
+Steps for test:
+Go to cart page
+Click Checkout
+Navigate to Checkout Overview page
+Get the backpack price
+
+Expected:
+The price should be 29.99
+
+Test case 2:
+
+Title: Verify error message is displayed when checkout information is missing
+
+Precondition:
+
+User is able to login with valid credentials.
+
+User has at least one product added to the cart.
+
+Steps for test:
+
+1.Verify the header displays Swag Labs.
+
+2.Click on the shopping cart icon.
+
+3.Click on the Checkout button.
+
+4.Leave First Name, Last Name, and Postal Code fields empty.
+
+5.Click on the Continue button.
+
+6.Verify the error message displayed on the screen.
+
+Expected:
+
+An appropriate error message (e.g., “Error: First Name is required”) should be displayed.
