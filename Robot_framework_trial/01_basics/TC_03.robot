@@ -1,5 +1,5 @@
 *** Variables ***
-${USER}    admin
+${USER}    chaitenya
 
 *** Test Cases ***
 Conditional Login
