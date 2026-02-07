@@ -10,7 +10,7 @@ Quick Get A JSON Body Test
 
 Quick Get A JSON Body Test 2
     ${response}=    GET  https://jsonplaceholder.typicode.com/posts/1
-    Status SHould Be
+    Status SHould Be  200
 
 
 Quick Get A JSON Body Test 3
