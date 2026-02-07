@@ -42,6 +42,8 @@ Login With Problem User
 Open SauceDemo
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
+    ${links}=  Get All Links
+    Log To Console    ${links}
 
 Login To SauceDemo
     [Documentation]    Logs into the SauceDemo application with given username and password
