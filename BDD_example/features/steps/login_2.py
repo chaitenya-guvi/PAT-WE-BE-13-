@@ -9,7 +9,7 @@ def step_impl(context):
     webelement_username.send_keys("error_user")
     webelement_password = context.driver.find_element("id", "password")
     webelement_password.clear()
-    webelement_password.send_keys("secret_sauce")
+    webelement_password.send_keys("secret")
     webelement_password.send_keys(Keys.ENTER)
 
 @then(u'user should see error message')
