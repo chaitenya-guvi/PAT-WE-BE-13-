@@ -18,5 +18,5 @@ def step_impl(context):
 
 
 @then(u'Verify author name.')
-def step_impl(context):
+def step_random_name(context):
     assert False
